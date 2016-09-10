@@ -7,4 +7,4 @@ Quiz page contains a short quiz with some user interaction and finally contact p
 
 ## Try it 
 
-https://github.com/vineethgajula1/Vineeth.git
+https://github.com/vineethgajula1/Vineeth
