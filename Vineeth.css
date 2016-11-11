@@ -3,99 +3,97 @@
 
 }
 #bg2{
-    background-image: url("backgrounds/5.jpg")
+    background-image: url("backgrounds/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #bg1{
     background-image: url("backgrounds/9.jpg")
 }
 body{
-    overflow:hidden;
+
+}
+.navbar-default {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+span.heads{
+    font-size: 20px;
+}
+span.heads2{
+    font-size:20px;
 }
 legend {
     margin:0 auto;
     color:blue;
+    text-align: center;
 }
-
-ul {
-    list-style-type: none;
+#cd{
+   position: relative;
+    bottom:20px;
+}
+#note{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #636363;
-    font-family: Sans-serif;
-
 }
-
-.active {
-    background-color: #8a2be2;
-}
-li {
-    float: left;
-    
-}
-li a {
-    display: block;
+#n{
+        display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #bf3eff;
-    
-}
 
 #pimg{
     float:right;
-    position: relative;
-    top: 30px;
-    right:3cm;
+   position: relative;
+    top: 5px;
+    right:1cm;
      border: 3px solid;
     border-radius: 4px;
 }
-#ldiv{
-    position: relative;
-    right:2cm;
+#box{
+     box-shadow:0px 0px 15px#ffffff;
+      height:100%;
 }
+
 #cimg{
-    position:relative;
+    
     float: right;
     border-radius: 25%;
     right:10px;
+    left:2cm;
 
 }
 #div1{
     text-align: bottom;
 }
 fieldset {
-    position: relative;
+   
     left: 80px;
-    bottom:15px;
     color: purple;
     background-position: left top;
     padding: 20px;
     width: 400px;
     height: 320px;
-    border:3px solid black;
-    border-radius:8px;
-     font-family: Sans-serif;
-     font-size: large;
-     background-image:  url("backgrounds/9.jpg");
+     font-family:serif;
+     font-size: 16px;    
  }
-
  footer {
     background-color: #636363;
     position: relative;
+    top:5.8cm;
     height: 60px;
     width: 100%;
-    overflow:hidden;
-    text-align: center;
-    bottom:3cm;
-}
-img.c1{
    
-    border-radius: 2cm;
+    text-align: center;
 
+}
+img.c1{  
+    border-radius: 2cm;
  
 }
 #id01{
@@ -107,8 +105,6 @@ img.c1{
     border-radius: 15%;
     float:right;
     background-image: url("backgrounds/9.jpg");
-    position: relative;
-    bottom: 3cm;
 border-style: solid;
 }
 .button{
@@ -128,33 +124,39 @@ border-style: solid;
 .button:hover{
   background-color: #3e8e41;
 }
-#vid{
-    position: relative;
-    top:2cm;
-    left:2cm;
 
+#quest{
+   
+    bottom:2cm;
+    left:1cm;
+
+}
+#ss{
+    font-family: sans-serif;
+    font-size: 20px;
 }
 #quizdiv{
 font-family: Arial, Helvetica, sans-serif
 }
 #qdiv{
        text-align: center;
-       position:relative;
-       bottom:;
-       float:left;
-       left:13cm;
+       bottom:cm;
+     
 
 }
+#ndiv{
+  position: relative;
+    top:3cm;
+}
 #but1{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 20px;
+   
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    border-radius: 2cm;
+    position: relative;
+    
+    top:100px;
 }
 #but1:hover{
   background-color: #3e8e41;
@@ -173,44 +175,45 @@ background-color: #4CAF50; /* Green */
 #but2:hover{
   background-color: #3e8e41;
 }
+#modal1{
+    position: relative;
+    float:bottom;
+    top:1.5cm;
+}
 #but3{
- border-style: outset;
-background-color: #4CAF50; 
-  border-color: olive;
-    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 1cm;
     font-size:20px;
- padding: 10px 20px;
+ padding: 8px 16px;
+ position:relative;
+ bottom:0.5cm;
+
 }
 #but3:hover{
   background-color: #3e8e41;
 }
-#nav1{
-    position: relative;
-    bottom:;
-}
+
 #submit1{
     position: relative;
-    bottom:12px;
-    left:;
+    bottom:10cm;
+
 
 }#results{
-    color:red;
-    font-size:30px;
-}
-#title{
+    color:#008b8b;
+    font-size:32px;
     
+    bottom:8cm;
+    left:1cm;
 }
+
 #qimg{
     opacity: 0.1;
     filter: alpha(opacity=50); 
-top:8px;
-    position: relative;
-    float:center;
-    left:80px;
+    
+   right:6cm;
+   bottom:3cm;
+    
 }
 #retakeb{
 
@@ -223,64 +226,36 @@ background-color: #4CAF50; /* Green */
     border-radius: 1cm;
     font-size:20px;
  padding: 10px 20px;
- position: relative;
- bottom:10cm;
+ bottom:12cm;
 }
 #retakeb:hover{
   background-color: #3e8e41;
 }
-#vid1{
-    position: relative;
-   right:10px;
-   float:right;
-   bottom:6cm;
-}
-table,th,td{
 
-  border-collapse: collapse;
- width:%;
-}
-td{
-text-align: left;
-    font-size: 30px;
-    padding: 15px;
-}
-tr:nth-child(even){background-color: #f2f2f2}
-th{
-     background-color: olive; 
-}
-tr{
-    font-family: sans-serif;
-}
 #hbody{
 
     background-color: #f0f8ff;
 }
 
-}
-#htable{
-    position:relative;
-    top:cm;
-    left:cm;
-}
-#frameid{
-    position: relative;
-    left:1cm;
-}
 #himg{
-    position: relative;
+    position: ;
     float: right;
     bottom:9cm;
     right:1cm;
     border-radabius: 1cm;
 }
+#open1
+{
+    position: ;
+    left:1cm;
+}
 #htable1{
-position:relative;
+position:;
     
     left:cm;
 }
 #hid{
-    position: relative;
+    position: ;
 }
 #hid:hover{
     background-color: green;
@@ -291,6 +266,16 @@ position:relative;
     border-radius: 1cm;
     border-style: dotted;
     padding:10px;
+    position: relative;
+    top:1.5cm;
+ 
+    
+}
+#highlight1{
+    color:#4a4a4a;
+    font-family: sans-serif;
+
+
 }
 #nspan{
     color:blue;
@@ -299,12 +284,14 @@ position:relative;
 }
 span.tf{
     color:red;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 span.qsts{
     font-family: "Arial Black", Gadget, sans-serif;
 }
 #htxt{
-    position: relative;
+    position:;
     bottom:10cm;
     font-size:20px; 
     font-family:"Comic Sans MS", cursive, sans-serif;
